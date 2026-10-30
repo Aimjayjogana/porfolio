@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mujahid Adamu Jogana | Full-Stack Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+:root{--bg:#0a0f1e;--card:#111a2e;--border:#1e2d4d;--primary:#2dd4bf;--text:#e2e8f0;--muted:#94a3b8}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:Inter,sans-serif;line-height:1.6}
+.container{max-width:1100px;margin:0 auto;padding:0 24px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid var(--border);position:sticky;top:0;background:rgba(10,15,30,.92);backdrop-filter:blur(10px);z-index:10}
+.logo{font-weight:800;font-size:18px}.logo span{color:var(--primary)}
+.nav-links{display:flex;gap:20px;font-size:14px;color:var(--muted)}
+.btn{padding:10px 18px;border-radius:999px;font-weight:600;font-size:14px;display:inline-flex;align-items:center;gap:8px;text-decoration:none;transition:.2s}
+.btn-p{background:var(--primary);color:#0a0f1e}.btn-p:hover{transform:translateY(-1px)}
+.btn-g{border:1px solid var(--border);color:var(--text)}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;padding:72px 0}
+h1{font-size:48px;line-height:.95;letter-spacing:-.04em;font-weight:800;margin:14px 0}
+h1 em{font-style:normal;background:linear-gradient(90deg,var(--primary),#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.lead{color:var(--muted);font-size:18px;margin-bottom:24px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:24px}
+.tag{font-size:11px;padding:4px 8px;border-radius:999px;background:rgba(45,212,191,.12);color:var(--primary);font-family:JetBrains Mono,monospace}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.section{padding:48px 0}
+.mono{font-family:JetBrains Mono,monospace}
+.pill{font-size:12px;padding:6px 12px;border-radius:999px;background:#0f1b33;border:1px solid var(--border)}
+.contact-bar{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+.whatsapp-float{position:fixed;bottom:24px;right:24px;width:58px;height:58px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-size:28px;box-shadow:0 8px 24px rgba(37,211,102,.4);z-index:99;text-decoration:none}
+.email-float{position:fixed;bottom:92px;right:24px;width:58px;height:58px;background:var(--primary);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#0a0f1e;font-size:22px;box-shadow:0 8px 24px rgba(45,212,191,.4);z-index:99;text-decoration:none}
+@media(max-width:900px){.hero{grid-template-columns:1fr} .grid-2{grid-template-columns:1fr} h1{font-size:36px} .nav-links{display:none}}
+</style>
+</head>
+<body>
+<a class="whatsapp-float" href="https://wa.me/2349027901097?text=Hi%20Mujahid%2C%20I%20saw%20your%20portfolio%20and%20want%20to%20connect" target="_blank"><i class="fab fa-whatsapp"></i></a>
+<a class="email-float" href="mailto:aimjayjogana@gmail.com"><i class="fas fa-envelope"></i></a>
+
+<div class="container">
+<nav>
+<div class="logo">MAJ<span>.</span></div>
+<div class="nav-links"><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
+<div><a class="btn btn-g" href="https://linkedin.com/in/mujahid-jogana-adamu-0b3587310" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></div>
+</nav>
+
+<div class="hero">
+<div>
+<div class="mono" style="color:var(--primary);font-size:12px;letter-spacing:.12em">GEZAWA, KANO • FULL-STACK DEVELOPER • OPEN TO REMOTE</div>
+<h1>Building products that <em>ship to real users</em></h1>
+<p class="lead">Software Engineering graduate (NAUB). Flask + Node.js + React. I built TAMAULA football platform for Kano State clubs — complete with player registration, transfers, and ML match predictions.</p>
+<div style="display:flex;gap:12px;flex-wrap:wrap">
+<a class="btn btn-p" href="#projects">View Live Projects →</a>
+<a class="btn btn-g" href="https://wa.me/2349027901097"><i class="fab fa-whatsapp"></i> WhatsApp Me</a>
+</div>
+<div class="contact-bar">
+<a class="btn btn-g" href="mailto:aimjayjogana@gmail.com"><i class="fas fa-envelope"></i> aimjayjogana@gmail.com</a>
+<a class="btn btn-g" href="tel:+2349027901097"><i class="fas fa-phone"></i> 09027901097</a>
+<a class="btn btn-g" href="https://linkedin.com/in/mujahid-jogana-adamu-0b3587310" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+</div>
+</div>
+<div class="card">
+<div class="mono" style="font-size:12px;color:var(--muted);margin-bottom:12px">> tamaula_screenshot.jpg — live on Flask</div>
+<img src="tamaula_screenshot.jpg" style="width:100%;border-radius:12px;border:1px solid var(--border)" alt="TAMAULA">
+<div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap">
+<span class="pill">Flask</span><span class="pill">SQLite/Postgres</span><span class="pill">Random Forest</span><span class="pill">WhatsApp Ready</span>
+</div>
+</div>
+</div>
+
+<div id="projects" class="section">
+<h2 style="font-size:28px;margin-bottom:8px">Featured Work</h2>
+<p style="color:var(--muted);margin-bottom:24px">Real products used by real businesses in Kano</p>
+<div class="grid-2">
+<div class="card">
+<img src="tamaula_screenshot.jpg" style="width:100%;border-radius:12px;margin-bottom:14px;border:1px solid var(--border)">
+<span class="tag">MAIN PROJECT • PYTHON FLASK</span>
+<h3 style="margin:12px 0 8px">TAMAULA — Football League Management</h3>
+<p style="color:var(--muted);font-size:14px">Full grassroots football system: Player Profiles, Club Management, Competitions, Lineups, Transfers, Register Player/Club. Welcome: "Connect, compete, and showcase your football talent. Join thousands of players and clubs across Kano State." + ML prediction with strength ratio, form, home advantage.</p>
+</div>
+<div class="card">
+<span class="tag">LIVE ON VERCEL</span>
+<h3 style="margin:12px 0 8px">Kamal Comms — Phone Spare Parts Catalogue</h3>
+<p style="color:var(--muted);font-size:14px">Static business site (HTML/CSS/JS). Live stock, photos, quantities. WhatsApp click-to-chat with pre-filled wholesale price enquiries.</p>
+<a href="https://kamal-comms.vercel.app" target="_blank" style="color:var(--primary);font-size:13px">kamal-comms.vercel.app ↗</a>
+<hr style="margin:20px 0;border:0;border-top:1px solid var(--border)">
+<span class="tag">LIVE ON VERCEL</span>
+<h3 style="margin:12px 0 8px">Sadys-delight — Cake Brand Website</h3>
+<p style="color:var(--muted);font-size:14px">Static mobile-first site. Optimized images, fast loading, WhatsApp order integration.</p>
+<a href="https://sadys-deligh.vercel.app" target="_blank" style="color:var(--primary);font-size:13px">sadys-deligh.vercel.app ↗</a>
+</div>
+</div>
+</div>
+
+<div id="contact" class="section">
+<div class="card" style="background:linear-gradient(135deg,#111a2e,#0f2a2a);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:24px;padding:32px">
+<div>
+<h2>Let's build something real.</h2>
+<p style="color:var(--muted);margin-top:8px">Gezawa, Kano — Open to Junior Full-Stack / Python Backend roles — remote or onsite.</p>
+<div style="margin-top:16px;display:flex;gap:12px;flex-wrap:wrap">
+<span class="mono" style="font-size:13px"><i class="fas fa-envelope"></i> aimjayjogana@gmail.com</span>
+<span class="mono" style="font-size:13px"><i class="fab fa-whatsapp"></i> +234 902 790 1097</span>
+</div>
+</div>
+<div style="display:flex;gap:12px;flex-direction:column">
+<a class="btn btn-p" href="https://wa.me/2349027901097?text=Salam%20Mujahid%2C%20naga%20portfolio%20dinka" target="_blank"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+<a class="btn btn-g" href="mailto:aimjayjogana@gmail.com"><i class="fas fa-envelope"></i> Send Email</a>
+<a class="btn btn-g" href="https://linkedin.com/in/mujahid-jogana-adamu-0b3587310" target="_blank"><i class="fab fa-linkedin"></i> View LinkedIn</a>
+</div>
+</div>
+</div>
+
+<div style="text-align:center;padding:28px 0;border-top:1px solid var(--border);color:var(--muted);font-size:12px" class="mono">© 2026 Mujahid Adamu Jogana • Built in Kano • Flask • Node.js • React • Deployed on Vercel</div>
+</div>
+</body>
+</html>
